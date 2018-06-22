@@ -6,7 +6,7 @@ Brauhaus.Recipe::toBeerXml = ->
     xml += "<name>#{@name}</name>"
     xml += "<brewer>#{@author}</brewer>"
     xml += "<batch_size>#{@batchSize}</batch_size>"
-    xml += "<boil_size>#{@boilSize}</boil_size>"
+    xml += "<boil_time>#{@boilTime}</boil_time>"
     xml += "<efficiency>#{@mashEfficiency}</efficiency>"
 
     if @primaryDays
